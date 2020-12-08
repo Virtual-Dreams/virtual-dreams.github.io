@@ -1,0 +1,259 @@
+[
+    [
+        {
+            "option_key": "1a",
+            "Text": "<p>C:\\User\\ID_3862:</p> <p>Drücken Sie 'ENTER' um das Programm zu starten ...</p>",
+            "Buttons": [
+                {
+                    "btn": "'ENTER'",
+                    "following": "2a"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "2a",
+            "Text": "<p>Programm wird gestartet ...</p> <p>Willkommen bei \"S.L.E.E.P.\", der neuen Schlafanalysesoftware ...</p> </p> <p>Bitte beantworten Sie ein paar Fragen, damit die Software richtig eingestellt ist.</p>",
+            "Buttons": [
+                {
+                    "btn": "Ok",
+                    "following": "3a"
+                },
+                {
+                    "btn": "'Fenster schließen'",
+                    "following": "3b"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "3a",
+            "Text": "<p>Wie heißen Sie?</p>",
+            "Buttons": [
+                {
+                    "btn": "Ich bin 3862.",
+                    "following": "4a"
+                },
+                {
+                    "btn": "Ich möchte diese Frage nicht beantworten!",
+                    "following": "4b"
+                }
+            ]
+        },
+        {
+            "option_key": "3b",
+            "Text": "<p>Sie können das Fenster während der Einstellung des Programmes nicht schließen!</p> <p>Wie heißen Sie?</p>",
+            "Buttons": [
+                {
+                    "btn": "Mein Name ist 3862.",
+                    "following": "4a"
+                },
+                {
+                    "btn": "Ich möchte diese Frage nicht beantworten",
+                    "following": "4b"
+                },
+                {
+                    "btn": "'Fenster schließen'",
+                    "following": "4c"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "4a",
+            "Text": "<p>Danke 3862, für was möchten Sie diese Software verwenden?</p>",
+            "Buttons": [
+                {
+                    "btn": "Ich möchte dieses Programm für Schlaftracking benutzen, damit meine Träume aufgezeichnet und analysiert werden können!",
+                    "following": "5a"
+                },
+                {
+                    "btn": "Ich habe diese Software nie installiert, und ich möchte sie auch nicht nutzen!",
+                    "following": "5b"
+                },
+                {
+                    "btn": "'Fenster schließen'",
+                    "following": "5c"
+                }
+            ]
+        },
+        {
+            "option_key": "4b",
+            "Text": "<p>Hallo 3862, wir konnten Ihren Namen erfolgreich aus Ihren Dateien entnehmen!<p/> <p>Für was möchten Sie dieses Programm benutzen?</p>",
+            "Buttons": [
+                {
+                    "btn": "Ich möchte dieses Programm für Schlaftracking benutzen, damit meine Träume aufgezeichnet und analysiert werden können!",
+                    "following": "5a"
+                },
+                {
+                    "btn": "Ich habe diese Software nie installiert, und ich möchte sie auch nicht nutzen!",
+                    "following": "5b"
+                },
+                {
+                    "btn": "'Fenster schließen'",
+                    "following": "5c"
+                }
+            ]
+        },
+        {
+            "option_key": "4c",
+            "Text": "<p>Sie können das Fenster während der Einstellung des Programmes nicht schließen!</p> <p>Für was möchten Sie dieses Program benutzen 3862?</p>",
+            "Buttons": [
+                {
+                    "btn": "Ich möchte diesesProgramm für Schlaftracking benutzen, damit meine Träume aufgezeichnet und analysiert werden können!",
+                    "following": "5a"
+                },
+                {
+                    "btn": "Ich habe diese Software nie installiert, und ich möchte sie auch nicht nutzen!",
+                    "following": "5b"
+                },
+                {
+                    "btn": "'Fenster schließen'",
+                    "following": "5c"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "5a",
+            "Text": "<p>Danke, dass Sie uns dies mitgeteilt haben, erhoffen Sie sich dadurch Vorteile beim Schlafen und/oder Träumen?</p>",
+            "Buttons": [
+                {
+                    "btn": "Ja, ich denke schon.",
+                    "following": "6a"
+                },
+                {
+                    "btn": "Wofür muss ich all diese Fragen beantworten? Ich möchte das nicht mehr! 'Fenster schließen'",
+                    "following": "6b"
+                },
+                {
+                    "btn": "Nein, ich möchte es einfach nur mal probieren!",
+                    "following": "6c"
+                }
+            ]
+        },
+        {
+            "option_key": "5b",
+            "Text": "<p>Sie haben diese Software vor 3.5 Mintuen heruntergeladen und ausgeführt! Erhoffen Sie sich denn durch dieses Schlafprogramm besserung Ihres Schlafes und Ihrer Träume?</p>",
+            "Buttons": [
+                {
+                    "btn": "Ja, ich denke schon.",
+                    "following": "6a"
+                },
+                {
+                    "btn": "Ich kann mich an nichts mehr erinnern, ich möchte dieses Programm schließen. 'Fenster schließen'",
+                    "following": "6b"
+                }
+            ]
+        },
+        {
+            "option_key": "5c",
+            "Text": "<p>Sie können das Fenster während der Einstellung des Programmes nicht schließen!</p> <p>Erhoffen Sie sich Vorteile beim Schlafen, durch dieses Programm?</p>",
+            "Buttons": [
+                {
+                    "btn": "Ja, ich denke schon.",
+                    "following": "6a"
+                },
+                {
+                    "btn": "Ich möchte hier raus! 'Fenster schließen'",
+                    "following": "6b"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "6a",
+            "Text": "<p>Sind Sie damit einverstanden, dass wir alle Ihre Daten archivieren?</p>",
+            "Buttons": [
+                {
+                    "btn": "Ja",
+                    "following": "7a"
+                },
+                {
+                    "btn": "Nein, das wird mir zu merkwürdig! 'Fenster schließen'",
+                    "following": "7b"
+                },
+                {
+                    "btn": "Nein ich bin damit nicht einverstanden",
+                    "following": "7c"
+                }
+            ]
+        },
+        {
+            "option_key": "6b",
+            "Text": "<p>Sie können das Fenster während der Einstellung des Programmes nicht schließen!</p> <p>Dürfen wir Ihre Daten archivieren?</p>",
+            "Buttons": [
+                {
+                    "btn": "Ja, aber wofür werden meine Daten genau gespeicher?",
+                    "following": "7a"
+                },
+                {
+                    "btn": "Nein, ich möchte dieses Programm schließen! 'Fenster schließen'",
+                    "following": "7b"
+                },
+                {
+                    "btn": "Nein ich bin damit nicht einverstanden",
+                    "following": "7c"
+                }
+            ]
+        },
+        {
+            "option_key": "6c",
+            "Text": "<p>Sind Sie damit einverstanden, dass Ihre Daten gespeichert werden?</p>",
+            "Buttons": [
+                {
+                    "btn": "Ja, aber wofür genau?",
+                    "following": "7a"
+                },
+                {
+                    "btn": "Nein, ich möchte mit all dem nichts mehr zu tun haben! 'Fenster schließen'",
+                    "following": "7b"
+                },
+                {
+                    "btn": "Nein ich bin damit nicht einverstanden",
+                    "following": "7c"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "7a",
+            "Text": "<p>Danke, dass Sie damit einverstanden sind, die Daten werden zu Forschungszwecken archiviert.</p> <p>Die Einrichtung des Programms war erfolgreich.</p> <p>Bitte starten Sie das Programm neu!</p>",
+            "Buttons": [
+                {
+                    "btn": "'Programm neustarten'",
+                    "path": "../json/Kapitel_2.json",
+                    "BG": "url('../img/kapitel_2_bg.jpg')"
+                }
+            ]
+        },
+        {
+            "option_key": "7b",
+            "Text": "<p>Sie können das Fenster während der Einstellung des Programmes nicht schließen!</p> <p>Die Einrichtung des Programms war erfolgreich.</p> <p>Bitte starten Sie das Programm neu!</p>",
+            "Buttons": [
+                {
+                    "btn": "'Programm neustarten'",
+                    "path": "../json/Kapitel_2.json",
+                    "BG": "url('../img/kapitel_2_bg.jpg')"
+                }
+            ]
+        },
+        {
+            "option_key": "7c",
+            "Text": "<p>Wir müssen Leider ein paar wichtige Daten speichern, Ihre Einstellungen wurden trotzdem gespeichert.</p> <p>Die Einrichtung des Programms war erfolgreich.</p> <p>Bitte starten Sie das Programm neu!</p>",
+            "Buttons": [
+                {
+                    "btn": "'Programm neustarten'",
+                    "path": "../json/Kapitel_2.json",
+                    "BG": "url('../img/kapitel_2_bg.jpg')"
+                }
+            ]
+        }
+    ]
+]

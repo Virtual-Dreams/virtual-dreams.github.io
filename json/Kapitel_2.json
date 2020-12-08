@@ -1,0 +1,178 @@
+[
+    [
+        {
+            "option_key": "1a",
+            "Text": "<p>Herzlich willkommen bei S.L.E.E.P. Ihrem Schlafassistenten. Drücken Sie ENTER um fortzufahren!</p>",
+            "Buttons": [
+                {
+                    "btn": "'ENTER'",
+                    "following": "2a"
+                },
+                {
+                    "btn": "Ich habe es mir anders überlegt. - ESCAPE",
+                    "following": "2b"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "2a",
+            "Text": "<p>Danke, dass Sie dieses Programm installiert haben!</p> <p>Wir werden Ihren Schlaf tracken und Ihre Träume für Sie analysieren.</p> <p>Durch unsere neu entwickelte Software wird es möglich sein Störungen zu finden und direkt zu beheben.</p> <p>Was möchten Sie als erstes herausfinden?</p>",
+            "Buttons": [
+                {
+                    "btn": "'Schlafanalyse'",
+                    "following": "3a"
+                },
+                {
+                    "btn": "'Profil'",
+                    "following": "3b"
+                }
+            ]
+        },
+        {
+            "option_key": "2b",
+            "Text": "",
+            "Buttons": []
+        }
+    ],
+    [
+        {
+            "option_key": "3a",
+            "Text": "<p>Ihr Schlaf ist hervorragend. Allerdings wurden bei den Träumen einige komplikationen festgestellt.</p> <p>Sie träumen sehr viel, was gut ist.</p> <p>Währen Sie träumen wurde allerdings eine Störung in Ihrem Gehirn gefunden.</p> <p>Ihre Träume sind dadurch sehr realitätsgetreu und Sie verlieren sich sehr einfach in diesen.</p>",
+            "Buttons": [
+                {
+                    "btn": "Was ist denn genau das Problem?",
+                    "following": "4a"
+                },
+                {
+                    "btn": "Ich wüsste das, wenn ich eine Störung in meinen Träumen habe!",
+                    "following": "4b"
+                }
+            ]
+        },
+        {
+            "option_key": "3b",
+            "Text": "<p>Bei Ihnen wurde eine Schlafstörung festgestellt!</p> <p>Bitte überprüfen Sie dieses!</p>",
+            "Buttons": [
+                {
+                    "btn": "Was ist das denn für ein Problem?",
+                    "following": "4a"
+                },
+                {
+                    "btn": "Ich habe kein Problem mit meinem Schlaf!",
+                    "following": "4b"
+                },
+                {
+                    "btn": "Man kann so etwas noch gar nicht feststellen!",
+                    "following": "4c"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "4a",
+            "Text": "<p>Durch die Analyse Ihrer Träume, wurde sichtbar, dass Sie in Ihren Träumen klar bei Verstand sind.</p> <p>Es fühlt sich für Sie wie die Realität an. Sie können dadurch nicht mehr zwischen Traum und Wirklichkeit unterscheiden.</p>",
+            "Buttons": [
+                {
+                    "btn": "Was mach ich jetzt dagegen?",
+                    "following": "5a"
+                }
+            ]
+        },
+        {
+            "option_key": "4b",
+            "Text": "<p>Sie haben ein Problem beim Träumen, Sie können nicht mehr zwischen Traum und Wirklichkeit unterscheiden, da sich alles für Sie real anfühlt!</p>",
+            "Buttons": [
+                {
+                    "btn": "Was mach ich jetzt dagegen?",
+                    "following": "5a"
+                }
+            ]
+        },
+        {
+            "option_key": "4c",
+            "Text": "<p>Doch, die Gehirnströme von Ihnen wurden gemessen.</p> <p>Es wurde dabei herausgefunden, dass Sie einen Traum nicht von der Wirklichkeit unterscheiden können, da sich alles für Sie real anfühlt.</p>",
+            "Buttons": [
+                {
+                    "btn": "Was mach ich jetzt dagegen?",
+                    "following": "5a"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "5a",
+            "Text": "<p>Ich werde Ihnen ein paar Fragen stellen und gezielt einige Bereiche Ihres Bewusstseiens analysieren bzw. verändern.</p>",
+            "Buttons": [
+                {
+                    "btn": "Ist das gefährlich?",
+                    "following": "6a"
+                },
+                {
+                    "btn": "Ich möchte das nicht durchführen, mir klingt das zu gefährlich",
+                    "following": "6b"
+                },
+                {
+                    "btn": "Ja YOLO, all in!",
+                    "following": "6c",
+                    "path": "../json/Kapitel_3.json"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "6a",
+            "Text": "<p>Sie sind in guten Händen!</p>",
+            "Buttons": [
+                {
+                    "btn": "Das beruhigt mich jetzt eher weniger.",
+                    "following": "7a"
+                },
+                {
+                    "btn": "Welche Hände?",
+                    "following": "7b"
+                }
+            ]
+        },
+        {
+            "option_key": "6b",
+            "Text": "<p>Es gibt leider keine Option mehr abzubrechen, Sie sind aber in guten Händen.</p>",
+            "Buttons": [
+                {
+                    "btn": "Das beruhigt mich überhaupt nicht!",
+                    "following": "7a"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "7a",
+            "Text": "<p>Das tut mir leid, wir müssen jetzt mit der Analyse beginnen!</p>",
+            "Buttons": [
+                {
+                    "btn": "Ok.",
+                    "following": "8a",
+                    "path": "../json/Kapitel_3.json",
+                    "BG": "url('../img/kapitel_3_bg.jpg')"
+                }
+            ]
+        },
+        {
+            "option_key": "7b",
+            "Text": "<p>Haha, immerhin haben Sie ihren Humor noch nicht verloren!</p> <p>Wir müssen jetzt mit der Analyse beginnen!</p>",
+            "Buttons": [
+                {
+                    "btn": "Ok.",
+                    "following": "8a",
+                    "path": "../json/Kapitel_3.json",
+                    "BG": "url('../img/kapitel_3_bg.jpg')"
+                }
+            ]
+        }
+    ]
+]

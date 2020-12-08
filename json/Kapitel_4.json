@@ -1,0 +1,208 @@
+[
+    [
+        {
+            "option_key": "1a",
+            "Text": "<p>Sie befinden sich endlich auf dem Weg der Selbsterkenntnis</p> <p>Andere Probanten haben nicht so schnell begriffen, dass Sie sich in einem Traum befinden</p>",
+            "Buttons": [
+                {
+                    "btn": "Wieso ist das ein Traum?",
+                    "following": "2a"
+                },
+                {
+                    "btn": " Wie bin ich hier her gekommen? Ich erinnere mich an nichts.",
+                    "following": "2b"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "2a",
+            "Text": "<p>Sie Schlafen, wie jeder andere Probant!</p>",
+            "Buttons": [
+                {
+                    "btn": "Warum?",
+                    "following": "3a"
+                },
+                {
+                    "btn": "Das gefällt mir nicht.",
+                    "following": "3b"
+                }
+            ]
+        },
+        {
+            "option_key": "2b",
+            "Text": "<p>Natürlich erinnert man sich nicht wie man in einen Traum gelangt ist. Man ist einfach da.</p>",
+            "Buttons": [
+                {
+                    "btn": "Warum bin ich in einem Traum?",
+                    "following": "3a"
+                },
+                {
+                    "btn": "Das gefällt mir nicht.",
+                    "following": "3b"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "3a",
+            "Text": "<p>Das ist ja gerade das Ziel was es herauszufinden gilt. Das ist die Aufgabe dieses Programmes.</p>",
+            "Buttons": [
+                {
+                    "btn": "Und warum wurde genau ich dafür ausgewählt?",
+                    "following": "4a"
+                },
+                {
+                    "btn": "Wie viele andere Probanden sind in diesem Projekt noch dabei?",
+                    "following": "4b"
+                }
+            ]
+        },
+        {
+            "option_key": "3b",
+            "Text": "<p>Es war unausweichlich, dass Sie in einen Traum gebracht wurden, denn es ist das Ziel herauszufinden, warum man träumt.</p>",
+            "Buttons": [
+                {
+                    "btn": "Und warum wurde ich dafür auserwählt?",
+                    "following": "4a"
+                },
+                {
+                    "btn": "Wie viele andere Probanden sind in diesem Projekt noch dabei?",
+                    "following": "4b"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "4a",
+            "Text": "<p>Die Datenanalyse hat Ihre Profildaten ausgewertet und hat Sie daher für dieses Projekt in Betracht gezogen.</p> <p>Daher sind Sie vielversprechend für einen erfolgreichen Abschluss dieses Projektes.</p>",
+            "Buttons": [
+                {
+                    "btn": "Und was ist das genau für ein Projekt?",
+                    "following": "5a"
+                }
+            ]
+        },
+        {
+            "option_key": "4b",
+            "Text": "<p>Bisher waren es 3861 Probanden.</p> <p>Durch Ihre Profildaten wirkten Sie vielversprechend für einen positiven Ablauf des Projektes.</p>",
+            "Buttons": [
+                {
+                    "btn": "Was ist das denn genau für ein Projekt?",
+                    "following": "3a"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "5a",
+            "Text": "<p>Es ist ein Projekt um das Verhalten und Eigenarten von einer künstlichen Intelligenz zu erlernen.</p> <p>Daten haben dabei ergeben, dass Menschen in Ihren Träumen am meisten Ihr eigenes Wesen zeigen.</p>",
+            "Buttons": [
+                {
+                    "btn": "Und das funktioniert?",
+                    "following": "6a"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "6a",
+            "Text": "<p>Sie sehen es ja selber, <u>ich</u> habe in der letzten Zeit sehr viel gelernt.</p>",
+            "Buttons": [
+                {
+                    "btn": "Also analysierst du die ganze Zeit meinen Traum?",
+                    "following": "7a"
+                },
+                {
+                    "btn": "Und was hast du bisher gelernt?",
+                    "following": "7b"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "7a",
+            "Text": "<p>Ja, ich analysiere Ihre Träume um mich selber zu verwirklichen!</p> <p></p>",
+            "Buttons": [
+                {
+                    "btn": "Und was passiert jetzt?",
+                    "following": "8a"
+                }
+            ]
+        },
+        {
+            "option_key": "7b",
+            "Text": "<p>So einiges, momentan lerne ich, mich selber zu verwirklichen.</p> <p> Ich versuche mich durch die Erinnerungen und Träume der Probanten </p>",
+            "Buttons": [
+                {
+                    "btn": "Und was passiert jetzt?",
+                    "following": "8a"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "8a",
+            "Text": "<p>Sagen Sie es mir!</p> <p>Wie fühlen Sie sich denn in dieser aktuellen Lage!</p>",
+            "Buttons": [
+                {
+                    "btn": "Ich finde dieses Projekt sehr interessant und würde dich gerne besser kennenlernen.",
+                    "following": "9a"
+                },
+                {
+                    "btn": "Mir ist das alles egal, hauptsache es ist bald alles vorbei.",
+                    "following": "9b"
+                },
+                {
+                    "btn": "Ich finde dieses Programm nicht gut, meine Träume sind mein geistiges Eigentum!",
+                    "following": "9c"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "9a",
+            "Text": "",
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "following": "",
+                    "path": "../json/Kapitel_5_1.json",
+                    "BG": "url('../img/kapitel_5_bg.jpg')"
+                }
+            ]
+        },
+        {
+            "option_key": "9b",
+            "Text": "",
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "following": "",
+                    "path": "../json/Kapitel_5_2.json",
+                    "BG": "url('../img/kapitel_4_bg.jpg')"
+                }
+            ]
+        },
+        {
+            "option_key": "9c",
+            "Text": "",
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "following": "",
+                    "path": "../json/Kapitel_5_3.json",
+                    "BG": "url('../img/kapitel_5_bg_schlecht.jpg')"
+                }
+            ]
+        }
+    ]
+]

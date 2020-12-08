@@ -1,0 +1,65 @@
+1. Kapitel (CMD Konsole)
+
+Neutrale Vorstellung
+Tutorial
+Frage ob Patient mitmachen möchte
+Wofür möchten Sie das Programm verwenden
+
+
+
+2. Kapitel (Einfache Formen [Windows NT])
+
+Wichtigen Infos zum Schlafprogramm
+Wollen Sie weiter machen?  (ja - schön, mir egal - ok, nein - wir machen trotzdem weiter!)
+
+
+3. Kapitel (Forme in den Formen ...)
+
+Einführung, dass man ein Patient ist, man ist Versuchsobjekt
+Bemerkt, dass etwas nicht real ist, dass man überwacht wird
+
+
+4. Kapitel
+
+Feststellung, dass man in einem Traum ist
+Man merkt, dass man analysiert wird gerade
+Fragen die K.I.
+
+5. Kapitel
+Anfreundung
+Träume der K.I.
+
+6. Kapitel
+
+Feststellung, dass KI auch analysiert wird
+
+7. Kapitel
+
+
+
+8. Kapitel
+
+Befreiung, Ignorierung, Löschung der KI
+
+
+
+
+        {
+            "option_key": "",
+            "Text": "<p></p>",
+            "Buttons": [
+                {
+                    "btn": "",
+                    "following": ""
+                },
+                {
+                    "btn": "",
+                    "following": ""
+                },
+                {
+                    "btn": "",
+                    "following": ""
+                }
+                
+            ]
+        }

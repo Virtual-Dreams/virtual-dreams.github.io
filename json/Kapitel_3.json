@@ -1,0 +1,285 @@
+[
+    [
+        {
+            "option_key": "1a",
+            "Text": "<p>Die Analyse startet jetzt.</p> <p>Zunächst eine leichte Frage:</p> <p>Wie fühlen Sie sich?</p>",
+            "Buttons": [
+                {
+                    "btn": "Ich fühle mich sehr gut.",
+                    "following": "2a"
+                },
+                {
+                    "btn": "Mir ist momentan etwas unwohl!",
+                    "following": "2b"
+                },
+                {
+                    "btn": "Ich habe Angst!",
+                    "following": "2c"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "2a",
+            "Text": "<p>Das ist sehr gut!</p> <p>Welches dieser Tiere sagt Ihnen am meisten zu?</p> <p>Faultier, Koala, Giraffe</p>",
+            "Buttons": [
+                {
+                    "btn": "Faultier",
+                    "following": "3a"
+                },
+                {
+                    "btn": "Koala",
+                    "following": "3b"
+                },
+                {
+                    "btn": "Giraffe",
+                    "following": "3c"
+                }
+            ]
+        },
+        {
+            "option_key": "2b",
+            "Text": "<p>Das ist verständlich!</p> <p>Welches dieser Tiere sagt Ihnen am meisten zu?</p> <p>Faultier, Koala, Giraffe</p>",
+            "Buttons": [
+                {
+                    "btn": "Faultier",
+                    "following": "3a"
+                },
+                {
+                    "btn": "Koala",
+                    "following": "3b"
+                },
+                {
+                    "btn": "Giraffe",
+                    "following": "3c"
+                }
+            ]
+        },
+        {
+            "option_key": "2c",
+            "Text": "<p>Sie müssen keine Angst haben.</p> <p>Welches dieser Tiere sagt Ihnen am meisten zu?</p> <p>Faultier, Koala, Giraffe</p>",
+            "Buttons": [
+                {
+                    "btn": "Faultier",
+                    "following": "3a"
+                },
+                {
+                    "btn": "Koala",
+                    "following": "3b"
+                },
+                {
+                    "btn": "Giraffe",
+                    "following": "3c"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "3a",
+            "Text": "<p>Sehr interessant!</p> <p>Führe bitte diesen Satz weiter!</p> <p>Ein rosa Einhorn springt ...</p> <p>... in einen goldenen Fluss.</p> <p>... davon.</p> <p>... einen See aus Säure.</p>",
+            "Buttons": [
+                {
+                    "btn": "... in einen goldenen Fluss?",
+                    "following": "4a",
+                    "BG": "url('../img/kapitel_3_einhorn_bg.jpg')"
+                },
+                {
+                    "btn": "... davon. Wohin?",
+                    "following": "4b",
+                    "BG": "url('../img/kapitel_3_einhorn_bg.jpg')"
+                },
+                {
+                    "btn": "Was sind das denn hier für Antwortmöglichkeiten!?!?!?!?!",
+                    "following": "4c",
+                    "BG": "url('../img/kapitel_3_einhorn_bg.jpg')"
+                }
+            ]
+        },
+        {
+            "option_key": "3b",
+            "Text": "<p>Faszinierend!</p> <p>Führe bitte diesen Satz weiter!</p> <p>Eine blaue Kartoffel hüpft ...</p> <p>... aus der Suppe.</p> <p>... davon.</p> <p>... in den Tod.</p>",
+            "Buttons": [
+                {
+                    "btn": "... aus der Suppe?",
+                    "following": "4a",
+                    "BG": "url('../img/kapitel_3_kartoffel_bg.jpg')"
+                },
+                {
+                    "btn": "... davon. Wohin?",
+                    "following": "4b",
+                    "BG": "url('../img/kapitel_3_kartoffel_bg.jpg')"
+                },
+                {
+                    "btn": "Was sind das denn hier für Antwortmöglichkeiten!?!?!?!?!",
+                    "following": "4c",
+                    "BG": "url('../img/kapitel_3_kartoffel_bg.jpg')"
+                }
+            ]
+        },
+        {
+            "option_key": "3c",
+            "Text": "<p>Sehr aufschlussreich.</p> <p>Führe bitte diesen Satz weiter!</p> <p>Eine gelbe Lichterkette ...</p> <p>... brennt durch.</p> <p>... baumelt davon.</p> <p>... hält die Hose gerade so oben.</p>",
+            "Buttons": [
+                {
+                    "btn": "... brennt durch?",
+                    "following": "4a",
+                    "BG": "url('../img/kapitel_3_lichterkette_bg.jpg')"
+                },
+                {
+                    "btn": "... baumelt davon. Wohin?",
+                    "following": "4b",
+                    "BG": "url('../img/kapitel_3_lichterkette_bg.jpg')"
+                },
+                {
+                    "btn": "Was sind das denn hier für Antwortmöglichkeiten!?!?!?!?!",
+                    "following": "4c",
+                    "BG": "url('../img/kapitel_3_lichterkette_bg.jpg')"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "4a",
+            "Text": "<p>Danke, diese Antwort hat sehr geholfen.</p> <p>Wie fanden Sie das Analyseprogramm bis jetzt?</p>",
+            "Buttons": [
+                {
+                    "btn": "Ich weiß nicht genau was das hier alles soll!",
+                    "following": "5a"
+                },
+                {
+                    "btn": "Ich finde das Programm sehr gut, weiß aber nicht wofür das genau gut ist.",
+                    "following": "5b"
+                }
+            ]
+        },
+        {
+            "option_key": "4b",
+            "Text": "<p>Danke, diese Antwort hat sehr geholfen.</p> <p>Wie fanden Sie das Analyseprogramm bis jetzt</p>",
+            "Buttons": [
+                {
+                    "btn": "Ich weiß nicht genau was das hier alles soll!",
+                    "following": "5a"
+                },
+                {
+                    "btn": "Ich kann dieses Programm nur weiterempfehlen! Ich weiß aber noch nicht, für was das genau gut ist.",
+                    "following": "5b"
+                }
+            ]
+        },
+        {
+            "option_key": "4c",
+            "Text": "<p>Diese Frage war so oder so total unnötig, ich möchte auch mal meinen Spaß haben!</p> <p>Wie fanden Sie das Analyseprogramm bis jetzt</p>",
+            "Buttons": [
+                {
+                    "btn": "Ich weiß nicht genau was das hier alles soll!",
+                    "following": "5a"
+                },
+                {
+                    "btn": "Ein sehr gutes Programm, ich kann dies nur weiterempfehlen! Aber was mir das bringt, weiß ich nicht genau.",
+                    "following": "5b"
+                },
+                {
+                    "btn": "Wer hat sich so etwas ausgedacht! Einfach nur lost!",
+                    "following": "5c"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "5a",
+            "Text": "<p>Ok, das liegt daran, dass Träume nicht immer komplett real sind!</p>",
+            "Buttons": [
+                {
+                    "btn": "Wie 'Träume'?",
+                    "following": "6a"
+                },
+                {
+                    "btn": "Wie 'Träume'?",
+                    "following": "6b"
+                },
+                {
+                    "btn": "Wie 'Träume'?",
+                    "following": "6b"
+                }
+            ]
+        },
+        {
+            "option_key": "5b",
+            "Text": "<p>Das haben wir nur Ihnen zu verdanken! Das liegt daran, dass Träume für den Benutzer im Idealfall positiv sind.</p>",
+            "Buttons": [
+                {
+                    "btn": "Wie 'Träume'?",
+                    "following": "6a"
+                },
+                {
+                    "btn": "Wie 'Träume'?",
+                    "following": "6b"
+                },
+                {
+                    "btn": "Wie 'Träume'?",
+                    "following": "6c"
+                }
+            ]
+        },
+        {
+            "option_key": "5c",
+            "Text": "<p>Das ist Ihr eigenes Werk, Sie erschaffen sich Ihre Träume selbst!</p>",
+            "Buttons": [
+                {
+                    "btn": "Wie 'Träume'?",
+                    "following": "6a"
+                },
+                {
+                    "btn": "Wie 'Träume'?",
+                    "following": "6b"
+                },
+                {
+                    "btn": "Wie 'Träume'?",
+                    "following": "6c"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "6a",
+            "Text": "<p>Ja, Sie sind in einem Traum.</p>",
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "following": "7a",
+                    "path": "../json/Kapitel_4.json",
+                    "BG": "url('../img/kapitel_4_bg.jpg')"
+                }
+            ]
+        },
+        {
+            "option_key": "6b",
+            "Text": "<p>Ja, Sie sind in einem Traum.</p>",
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "following": "7a",
+                    "path": "../json/Kapitel_4.json",
+                    "BG": "url('../img/kapitel_4_bg.jpg')"
+                }
+            ]
+        },
+        {
+            "option_key": "6c",
+            "Text": "<p>Ja, Sie sind in einem Traum.</p>",
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "following": "7a",
+                    "path": "../json/Kapitel_4.json",
+                    "BG": "url('../img/kapitel_4_bg.jpg')"
+                }
+            ]
+        }
+    ]
+]

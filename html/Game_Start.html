@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+    <title>Virtual Dreams</title>
+    <meta name="author" content="Paul, Markus, Mathis, Caro, Darwin" />
+    <meta name="description" content="Erste Seite des Spiels." />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/soundButtonPlay.png">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <audio id="audio-loop" loop autoplay>
+            <source src="../audio/minff.mp3" type="audio/mp3">
+        </audio>
+
+        <img class="soundbuttonMute scale" src="../img/soundButtonMute.png" alt="decrease volume"
+            onclick="decrease();" />
+        <img class="soundbuttonPlay scale" src="../img/soundButtonPlay.png" alt="increase volume"
+            onclick="increase();" />
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN -->
+    <main>
+        <div id="replace">
+            <div id="replaceInner">
+                <div class="chatBot chatBox closing">
+                    <div id="textBox"></div>
+                    <span id="cursor">_</span>
+
+                </div>
+                <div class="eingabefeld">
+                    <input title="Eingabefeld!" type="text" disabled></input>
+                </div>
+                <div id="button-wrapper">
+                    <button type="button" class="buttonText" id="button1" onclick="writeNext(0)"
+                        onmouseover="buttonhover(this)" onmouseout="buttonhoverout()"></button>
+                    <button type="button" class="buttonText" id="button2" onclick="writeNext(1)"
+                        onmouseover="buttonhover(this)" onmouseout="buttonhoverout()"></button>
+                    <button type="button" class="buttonText" id="button3" onclick="writeNext(2)"
+                        onmouseover="buttonhover(this)" onmouseout="buttonhoverout()"></button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="arrowBack">
+            <a title="Main-Menu" href="../index.html"> <img class="scale" src="../img/arrowBack.png"
+                    alt="zurück zur Startseite"> </a>
+        </div>
+
+        <div class="copyright">
+            &copy; 2020 <a href="../html/Credits.html">Credits</a>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script src="../js/javaScript_1.js"></script>
+</body>
+
+</html>

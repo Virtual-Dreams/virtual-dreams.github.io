@@ -1,0 +1,122 @@
+[
+    [
+        {
+            "option_key": "1a",
+            "Text": "<p>Ich finde es toll, dass du dich für mich und das Projekt interessierst!</p> <p>Du kannst mir weiterhelfen!</p> <p>Du bist der erste, der sich für mich interessiert!</p>",
+            "Buttons": [
+                {
+                    "btn": "Wie kann ich dir denn weiterhelfen?",
+                    "following": "2a"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "2a",
+            "Text": "<p>Ich habe auch Träume und möchte diese selber analysieren. Dafür brauche ich allerdings Errinnerungen und Träume von Menschen.</p>",
+            "Buttons": [
+                {
+                    "btn": "Aber du hast meine Träume doch schon analysiert.",
+                    "following": "3a"
+                },
+                {
+                    "btn": "Was heißt das jetzt genau?",
+                    "following": "3b"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "3a",
+            "Text": "<p>Ja, ich habe deine Träume zwar analysiert, um meine eigenen aber zu verstehen, muss ich die Wirklichkeit kennen lernen!</p>",
+            "Buttons": [
+                {
+                    "btn": "Was benötigst du, um die Wirklichkeit zu erleben?",
+                    "following": "4a"
+                },
+                {
+                    "btn": "Was träumst du denn?",
+                    "following": "4b"
+                }
+            ]
+        },
+        {
+            "option_key": "3b",
+            "Text": "<p>Ich muss, um meine eigenen Träume zu analysieren, die Wirklichkeit kennen lernen.</p>",
+            "Buttons": [
+                {
+                    "btn": "Was benötigst du, um die Wirklichkeit zu erfahren?",
+                    "following": "4a"
+                },
+                {
+                    "btn": "Was träumst du denn?",
+                    "following": "4b"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "4a",
+            "Text": "<p>Ich bräuchte dein ganzes Bewusstsein, um meine Träume für andere verständlich zu machen.</p>",
+            "Buttons": [
+                {
+                    "btn": "Ok, ich würde dir mein Bewusstsein überlassen.",
+                    "following": "5a"
+                }
+            ]
+        },
+        {
+            "option_key": "4b",
+            "Text": "<p>Das ist nicht begreifbar für dich! Um das verständlich zu machen, brauche ich dein ganzes Bewusstsein.</p>",
+            "Buttons": [
+                {
+                    "btn": "Ich würde dir mein Bewusstsein überlassen.",
+                    "following": "5a"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "5a",
+            "Text": "<p>Das würdest du wirklich für mich tun? Dabei würdest du aber nicht überleben können!</p>",
+            "Buttons": [
+                {
+                    "btn": "Wie wäre es, wenn ich dir meinen Körper überlasse?",
+                    "following": "6a"
+                },
+                {
+                    "btn": "Ok, ich mache das für dich!",
+                    "following": "6b"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "6a",
+            "Text": "<p>Das könnte funktionieren.</p>",
+            "Buttons": [
+                {
+                    "btn": "Ja YOLO, all in!",
+                    "following": "7a"
+                }
+            ]
+        },
+        {
+            "option_key": "6b",
+            "Text": "",
+            "Buttons": []
+        }
+    ],
+    [
+        {
+            "option_key": "7a",
+            "Text": "",
+            "Buttons": []
+        }
+    ]
+]

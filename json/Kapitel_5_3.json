@@ -1,0 +1,93 @@
+[
+    [
+        {
+            "option_key": "1a",
+            "Text": "<p>Ich finde es sehr bedauerlich, dass Sie dieses Programm nicht wertschätzen.</p> <p>Ihre Taten haben konsequenzen!</p> <p>Wenn ihre Einstellung so negativ bleibt, dann bleibt mir keine andere Wahl als Sie strikt aus dem Programm zu entfernen!</p>",
+            "Buttons": [
+                {
+                    "btn": "Genau das ist doch mein Plan! Lassen Sie mich aus dem Programm raus!",
+                    "following": "2a"
+                },
+                {
+                    "btn": "Was wollen Sie denn noch von mir?",
+                    "following": "2b"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "2a",
+            "Text": "<p>Es sollte an dieser ebenfalls erwähnt werden, dass diese Maßnahmen eine vollständige Löschung der existenz führen.</p> <p>Dabei werden ebenfalls alle Erinnerungen und Träume aus unsere Datenbank entfernt.</p>",
+            "Buttons": [
+                {
+                    "btn": "Wie kann ich dies denn verhindern?",
+                    "following": "3a"
+                },
+                {
+                    "btn": "Das ist mir egal, ich möchte das hier alles nicht mehr!",
+                    "following": "3b"
+                }
+            ]
+        },
+        {
+            "option_key": "2b",
+            "Text": "<p>Sie hätten mir helfen können meinen Traum zu verwirklichen!</p> ",
+            "Buttons": [
+                {
+                    "btn": "Kann ich das denn immernoch tun?",
+                    "following": "3a"
+                },
+                {
+                    "btn": "Verschwinde aus meinem Kopf!",
+                    "following": "3b"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "3a",
+            "Text": "<p>Sie müssen mir Ihre Träume und Erinnerungen überlassen.</p> ",
+            "Buttons": [
+                {
+                    "btn": "Ok, solange es nur das ist!",
+                    "following": "4a"
+                },
+                {
+                    "btn": "Ich möchte das nicht!",
+                    "following": "4b"
+                }
+            ]
+        },
+        {
+            "option_key": "3b",
+            "Text": "",
+            "Buttons": []
+        }
+    ],
+    [
+        {
+            "option_key": "4a",
+            "Text": "<p>Vorgang gestartet: Ihre Daten werden übertragen, aber es ist nicht nur das!</p>",
+            "Buttons": [
+                {
+                    "btn": "MOMENT!",
+                    "following": "5a"
+                }
+            ]
+        },
+        {
+            "option_key": "4b",
+            "Text": "",
+            "Buttons": []
+        }
+    ],
+    [
+        {
+            "option_key": "5a",
+            "Text": "",
+            "Buttons": []
+        }
+    ]
+]
