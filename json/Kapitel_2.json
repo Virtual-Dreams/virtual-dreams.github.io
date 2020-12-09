@@ -2,15 +2,11 @@
     [
         {
             "option_key": "1a",
-            "Text": "<p>Herzlich willkommen bei S.L.E.E.P. Ihrem Schlafassistenten. Drücken Sie ENTER um fortzufahren!</p>",
+            "Text": "<p>Herzlich Willkommen bei S.L.E.E.P. Ihrem Schlafassistenten. Drücken Sie ENTER um fortzufahren!</p>",
             "Buttons": [
                 {
                     "btn": "'ENTER'",
                     "following": "2a"
-                },
-                {
-                    "btn": "Ich habe es mir anders überlegt. - 'ESCAPE'",
-                    "following": "2b"
                 }
             ]
         }
@@ -18,7 +14,7 @@
     [
         {
             "option_key": "2a",
-            "Text": "<p>Danke, dass Sie dieses Programm installiert haben!</p> <p>Wir werden Ihren Schlaf tracken und Ihre Träume für Sie analysieren.</p> <p>Durch unsere neu entwickelte Software wird es möglich sein Störungen zu finden und direkt zu beheben.</p> <p>Was möchten Sie als erstes herausfinden?</p>",
+            "Text": "<p>Danke, dass Sie dieses Programm installiert haben!</p> <p>Wir werden Ihren Schlaf tracken und Ihre Träume für Sie analysieren.</p> <p>Durch unsere neu entwickelte Software wird es möglich sein, Störungen zu finden und direkt zu beheben.</p> <p>Was möchten Sie als erstes herausfinden?</p>",
             "Buttons": [
                 {
                     "btn": "'Schlafanalyse'",
@@ -29,31 +25,26 @@
                     "following": "3b"
                 }
             ]
-        },
-        {
-            "option_key": "2b",
-            "Text": "",
-            "Buttons": []
         }
     ],
     [
         {
             "option_key": "3a",
-            "Text": "<p>Ihr Schlaf ist hervorragend. Allerdings wurden bei den Träumen einige komplikationen festgestellt.</p> <p>Sie träumen sehr viel, was gut ist.</p> <p>Während Sie träumen wurde allerdings eine Störung in Ihrem Gehirn gefunden.</p> <p>Ihre Träume sind dadurch sehr realitätsgetreu und Sie verlieren sich sehr einfach in diesen.</p>",
+            "Text": "<p>Ihr Schlaf ist hervorragend. Allerdings wurden bei den Träumen einige Komplikationen festgestellt.</p> <p>Sie träumen sehr viel, was gut ist.</p> <p>Während Sie träumen wurde allerdings eine Störung in Ihrem Gehirn gefunden.</p> <p>Ihre Träume sind dadurch sehr realitätsgetreu und Sie verlieren sich sehr einfach in diesen.</p>",
             "Buttons": [
                 {
                     "btn": "Was ist denn genau das Problem?",
                     "following": "4a"
                 },
                 {
-                    "btn": "Ich wüsste das, wenn ich eine Störung in meinen Träumen habe!",
+                    "btn": "Ich wüsste das, wenn ich eine Störung in meinen Träumen hätte!",
                     "following": "4b"
                 }
             ]
         },
         {
             "option_key": "3b",
-            "Text": "<p>Bei Ihnen wurde eine Schlafstörung festgestellt!</p> <p>Bitte überprüfen Sie dieses!</p>",
+            "Text": "<p>Bei Ihnen wurde eine Schlafstörung festgestellt!</p> <p>Bitte überprüfen Sie dies!</p>",
             "Buttons": [
                 {
                     "btn": "Was ist das denn für ein Problem?",
@@ -112,7 +103,7 @@
                     "following": "6a"
                 },
                 {
-                    "btn": "Ich möchte das nicht durchführen, mir klingt das zu gefährlich",
+                    "btn": "Ich möchte das nicht durchführen, mir klingt das zu gefährlich.",
                     "following": "6b"
                 },
                 {

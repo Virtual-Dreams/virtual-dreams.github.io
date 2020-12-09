@@ -26,7 +26,7 @@
     [
         {
             "option_key": "3a",
-            "Text": "<p>Daten wurden erfolgreich gelöscht...</p>",
+            "Text": "<p>Proband wurde erfolgreich gelöscht.</p>",
             "Buttons": [
                 {
                     "btn": "...",

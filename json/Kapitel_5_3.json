@@ -2,7 +2,7 @@
     [
         {
             "option_key": "1a",
-            "Text": "<p>Ich finde es sehr bedauerlich, dass Sie dieses Programm nicht wertschätzen.</p> <p>Ihre Taten haben konsequenzen!</p> <p>Wenn ihre Einstellung so negativ bleibt, dann bleibt mir keine andere Wahl als Sie strikt aus dem Programm zu entfernen!</p>",
+            "Text": "<p>Ich finde es sehr bedauerlich, dass Sie dieses Programm nicht wertschätzen.</p> <p>Ihre Taten haben Konsequenzen!</p> <p>Wenn Ihre Einstellung so negativ bleibt, dann bleibt mir keine andere Wahl als Sie strikt aus dem Programm zu entfernen!</p>",
             "Buttons": [
                 {
                     "btn": "Genau das ist doch mein Plan! Lassen Sie mich aus dem Programm raus!",

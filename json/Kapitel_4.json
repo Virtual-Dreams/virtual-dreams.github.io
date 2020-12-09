@@ -2,14 +2,14 @@
     [
         {
             "option_key": "1a",
-            "Text": "<p>Sie befinden sich endlich auf dem Weg der Selbsterkenntnis</p> <p>Andere Probanden haben nicht so schnell begriffen, dass sie sich in einem Traum befinden</p>",
+            "Text": "<p>Sie befinden sich endlich auf dem Weg der Selbsterkenntnis.</p> <p>Andere Probanden haben nicht so schnell begriffen, dass sie sich in einem Traum befinden.</p>",
             "Buttons": [
                 {
                     "btn": "Wieso ist das ein Traum?",
                     "following": "2a"
                 },
                 {
-                    "btn": " Wie bin ich hier her gekommen? Ich erinnere mich an nichts.",
+                    "btn": "Wie bin ich hier her gekommen? Ich erinnere mich an nichts.",
                     "following": "2b"
                 }
             ]
@@ -18,7 +18,7 @@
     [
         {
             "option_key": "2a",
-            "Text": "<p>Sie Schlafen, wie jeder andere Proband!</p>",
+            "Text": "<p>Sie schlafen wie jeder andere Proband!</p>",
             "Buttons": [
                 {
                     "btn": "Warum?",
@@ -78,7 +78,7 @@
     [
         {
             "option_key": "4a",
-            "Text": "<p>Die Datenanalyse hat Ihre Profildaten ausgewertet und hat Sie daher für dieses Projekt in Betracht gezogen.</p> <p>Daher sind Sie vielversprechend für einen erfolgreichen Abschluss dieses Projektes.</p>",
+            "Text": "<p>Die Datenanalyse hat Ihre Profildaten ausgewertet und hat Sie daher für dieses Projekt in Betracht gezogen.</p> <p>Deshalb sind Sie vielversprechend für einen erfolgreichen Abschluss dieses Projektes.</p>",
             "Buttons": [
                 {
                     "btn": "Und was ist das genau für ein Projekt?",
@@ -100,7 +100,7 @@
     [
         {
             "option_key": "5a",
-            "Text": "<p>Es ist ein Projekt um das Verhalten und Eigenarten von einer künstlichen Intelligenz zu erlernen.</p> <p>Daten haben dabei ergeben, dass Menschen in Ihren Träumen am meisten Ihr eigenes Wesen zeigen.</p>",
+            "Text": "<p>Es ist ein Projekt, um das Verhalten und Eigenarten von einer künstlichen Intelligenz zu erlernen.</p> <p>Daten haben dabei ergeben, dass Menschen in Ihren Träumen am meisten Ihr eigenes Wesen zeigen.</p>",
             "Buttons": [
                 {
                     "btn": "Und das funktioniert?",
@@ -128,7 +128,7 @@
     [
         {
             "option_key": "7a",
-            "Text": "<p>Ja, ich analysiere Ihre Träume um mich selber zu verwirklichen!</p> <p></p>",
+            "Text": "<p>Ja, ich analysiere Ihre Träume um mich selber zu verwirklichen!</p>",
             "Buttons": [
                 {
                     "btn": "Und was passiert jetzt?",
@@ -138,7 +138,7 @@
         },
         {
             "option_key": "7b",
-            "Text": "<p>So einiges, momentan lerne ich, mich durch die Erinnerungen und Träume der Probanden,<br> selber weiterzuentwickeln.</p> <p></p>",
+            "Text": "<p>So einiges, momentan lerne ich, mich durch die Erinnerungen und Träume der Probanden,<br> selber weiterzuentwickeln.</p>",
             "Buttons": [
                 {
                     "btn": "Und was passiert jetzt?",

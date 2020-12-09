@@ -177,10 +177,6 @@
                 {
                     "btn": "Nein, das wird mir zu merkwürdig! 'Fenster schließen'",
                     "following": "7b"
-                },
-                {
-                    "btn": "Nein ich bin damit nicht einverstanden.",
-                    "following": "7c"
                 }
             ]
         },
@@ -195,10 +191,6 @@
                 {
                     "btn": "Nein, ich möchte dieses Programm schließen! 'Fenster schließen'",
                     "following": "7b"
-                },
-                {
-                    "btn": "Nein, ich bin damit nicht einverstanden",
-                    "following": "7c"
                 }
             ]
         },
@@ -213,10 +205,6 @@
                 {
                     "btn": "Nein, ich möchte mit all dem nichts mehr zu tun haben! 'Fenster schließen'",
                     "following": "7b"
-                },
-                {
-                    "btn": "Nein, ich bin damit nicht einverstanden",
-                    "following": "7c"
                 }
             ]
         }
@@ -235,23 +223,11 @@
         },
         {
             "option_key": "7b",
-            "Text": "<p>Sie können das Fenster während der Einstellung des Programms nicht schließen!</p> <p>Die Einrichtung des Programms war erfolgreich.</p> <p>Bitte starten Sie das Programm neu!</p>",
+            "Text": "<p>Die Installation war nicht erfolgreich, Sie müssen den Vorgang wiederholen.</p>",
             "Buttons": [
                 {
-                    "btn": "'Programm neustarten'",
-                    "path": "../json/Kapitel_2.json",
-                    "BG": "url('../img/kapitel_2_bg.jpg')"
-                }
-            ]
-        },
-        {
-            "option_key": "7c",
-            "Text": "<p>Wir müssen Leider ein paar wichtige Daten speichern, Ihre Einstellungen wurden trotzdem gespeichert.</p> <p>Die Einrichtung des Programms war erfolgreich.</p> <p>Bitte starten Sie das Programm neu!</p>",
-            "Buttons": [
-                {
-                    "btn": "'Programm neustarten'",
-                    "path": "../json/Kapitel_2.json",
-                    "BG": "url('../img/kapitel_2_bg.jpg')"
+                    "btn": "...",
+                    "path": "../json/Kapitel_1.json"
                 }
             ]
         }

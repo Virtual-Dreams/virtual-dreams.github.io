@@ -26,7 +26,7 @@
     [
         {
             "option_key": "3a",
-            "Text": "<p>Daten wurden erfolgreich überschrieben...</p>",
+            "Text": "<p>Daten wurden erfolgreich überschrieben.</p>",
             "Buttons": [
                 {
                     "btn": "...",
