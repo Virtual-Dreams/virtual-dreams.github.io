@@ -42,7 +42,6 @@ img.scale:hover {
     text-align: center;
 }
 
-
 .arrowBack {
     width: 5%;
     min-width: 4rem;
@@ -95,7 +94,6 @@ img.scale:hover {
     margin-right: auto;    
     margin-top: 4%;
 }
-
 
 .img-end {
     display: block;
@@ -188,7 +186,6 @@ img.scale:hover {
     background-color: rgb(78, 78, 78);
     box-shadow: 0 5px 10px 0 rgba(116, 116, 116, 0.24), 0 3px 5px 0 rgba(136, 136, 136, 0.19);
 }
-
 
 /* css for credits page */
 .credits {

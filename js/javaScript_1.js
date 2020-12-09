@@ -15,18 +15,17 @@ var counter = 0;
 var audio_loop = document.getElementById("audio-loop");
 audio_loop.volume = 0.1;
 
+//increase volume
 function increase() {
     if (audio_loop.paused) audio_loop.play();
     audio_loop.volume += 0.05;
 }
 
+//decrease volume
 function decrease() {
     if (audio_loop.volume === 0) audio_loop.pause();
     audio_loop.volume -= 0.05;
 }
-
-
-
 
 //Aufruf der JSON Datei
 function loadDoc(filepath) {
@@ -55,12 +54,13 @@ function writeNext(option) {
 
     if (buttonArray === 0) window.location.href = "../html/Credits.html";
     else {
+
         //Ausblenden der Buttons die nicht gebraucht werden
         btn1.style.display = (buttonArray >= 1) ? "block" : "none";
         btn2.style.display = (buttonArray >= 2) ? "block" : "none";
         btn3.style.display = (buttonArray >= 3) ? "block" : "none";
 
-        
+
         //Printen der Buttontexte in textBox
         if (option === 0) textBox.innerHTML += "<p class=\"right\">" + btn1.innerHTML + "</p>";
         else if (option === 1) textBox.innerHTML += "<p class=\"right\">" + btn2.innerHTML + "</p>";
@@ -93,14 +93,6 @@ function writeNext(option) {
     }
 }
 
-function sleep(milliseconds) {
-    const date = Date.now();
-    let currentDate = null;
-    do {
-        currentDate = Date.now();
-    } while (currentDate - date < milliseconds);
-}
-
 //blinking cursor
 var cursor = true;
 var speed = 250;
@@ -123,9 +115,3 @@ function buttonhover(button) {
 function buttonhoverout() {
     document.querySelector(".eingabefeld input").value = "";
 }
-
-function gotoBottom(id) {
-    var element = document.getElementById(id);
-    element.scrollTop = element.scrollHeight - element.clientHeight;
-}
-//myaudio.paused
