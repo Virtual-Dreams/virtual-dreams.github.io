@@ -1,0 +1,45 @@
+[
+    [
+        {
+            "option_key": "1a",
+            "Text": "<p>Vorgang wird gestartet...</p>",
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "following": "2a"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "2a",
+            "Text": "Löschung der Gendanken und Träume des Probanden erfolgen...",
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "following": "3a"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "3a",
+            "Text": "<p>Daten wurden erfolgreich gelöscht...</p>",
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "following": "4a"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "4a",
+            "Text": "",
+            "Buttons": []
+        }
+    ]
+]

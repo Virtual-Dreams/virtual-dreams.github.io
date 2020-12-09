@@ -22,7 +22,7 @@
     [
         {
             "option_key": "2a",
-            "Text": "<p>Das ist sehr gut!</p> <p>Welches dieser Tiere sagt Ihnen am meisten zu?</p> <p>Faultier, Koala, Giraffe</p>",
+            "Text": "<p>Das ist sehr gut!</p> <p>Welches dieser Tiere sagt Ihnen am meisten zu?</p> <p>Faultier</p> <p>Koala</p> <p>Giraffe</p>",
             "Buttons": [
                 {
                     "btn": "Faultier",
@@ -40,7 +40,7 @@
         },
         {
             "option_key": "2b",
-            "Text": "<p>Das ist verständlich!</p> <p>Welches dieser Tiere sagt Ihnen am meisten zu?</p> <p>Faultier, Koala, Giraffe</p>",
+            "Text": "<p>Das ist verständlich!</p> <p>Welches dieser Tiere sagt Ihnen am meisten zu?</p> <p>Faultier</p> <p>Koala</p> <p>Giraffe</p>",
             "Buttons": [
                 {
                     "btn": "Faultier",
@@ -58,7 +58,7 @@
         },
         {
             "option_key": "2c",
-            "Text": "<p>Sie müssen keine Angst haben.</p> <p>Welches dieser Tiere sagt Ihnen am meisten zu?</p> <p>Faultier, Koala, Giraffe</p>",
+            "Text": "<p>Sie müssen keine Angst haben.</p> <p>Welches dieser Tiere sagt Ihnen am meisten zu?</p> <p>Faultier</p> <p>Koala</p> <p>Giraffe</p>",
             "Buttons": [
                 {
                     "btn": "Faultier",
@@ -178,7 +178,7 @@
                     "following": "5a"
                 },
                 {
-                    "btn": "Ein sehr gutes Programm, ich kann dies nur weiterempfehlen! Aber was mir das bringt, weiß ich nicht genau.",
+                    "btn": "Ein sehr gutes Programm, ich kann es nur weiterempfehlen! Aber was mir das bringt, weiß ich nicht genau.",
                     "following": "5b"
                 },
                 {

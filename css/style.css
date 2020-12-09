@@ -38,9 +38,10 @@ img.scale:hover {
 
 .wrapper {
     font-size: 4vw;
-    margin-top: 10vw;
+    margin-top: 25vh;
     text-align: center;
 }
+
 
 .arrowBack {
     width: 5%;
@@ -92,6 +93,14 @@ img.scale:hover {
     margin-left: auto;
     margin-right: auto;    
     margin-top: 4%;
+}
+
+
+.img-end {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .anim-typewriter {
@@ -183,9 +192,18 @@ img.scale:hover {
 /* css for credits page */
 .credits {
     text-align: center;
-    margin-top: 5vw;
+    margin-top: 2vh;
 }
 
+.credits-h1 {
+    font-size: 4vw;
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.marquee {
+    overflow: auto;
+}
 /* Animations */
 
 /* Typewrtier animation on index.html */

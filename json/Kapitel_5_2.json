@@ -2,7 +2,7 @@
     [
         {
             "option_key": "1a",
-            "Text": "<p>Es ist traurig, dass Sie dies so sehen.</p> <p>Leider konnte ich meinen Traum durch Sie nicht verwirklichen.</p> <p>Wir werden Sie nun aus dem Programm entfernen!</p>",
+            "Text": "<p>Es ist traurig, dass Sie das so sehen.</p> <p>Leider konnte ich meinen Traum durch Sie nicht verwirklichen.</p> <p>Wir werden Sie nun aus dem Programm entfernen!</p>",
             "Buttons": [
                 {
                     "btn": "'Jetzt abschalten!'",

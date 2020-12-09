@@ -14,37 +14,50 @@
     <!-- HEADER -->
     <header>
 
-        <audio id="audio-loop" loop>
-            <source src="../audio/minff.mp3" type="audio/mp3">
+        <audio id="audio-loop" loop autoplay>
+            <source src="/audio/minff.wav" type="audio/wav">
         </audio>
 
-        <img class="soundbuttonMute scale" src="../img/leiser.png" alt="lower volume"
-            onclick="document.getElementById('audio-loop').pause()" />
-        <img class="soundbuttonPlay scale" src="../img/lauter.png" alt="increase volume"
-            onclick="document.getElementById('audio-loop').play()" />
+        <img class="soundbuttonMute scale" src="../img/leiser.png" alt="lower volume" onclick="decrease();" />
+        <img class="soundbuttonPlay scale" src="../img/lauter.png" alt="increase volume" onclick="increase();" />
     </header>
     <!-- HEADER END -->
 
     <!-- MAIN -->
     <main>
-        <p class="wrapper">CREDITS</p>
+        <p class="credits-h1">CREDITS</p>
 
-        <marquee behavior="scroll" direction="down" scrollamount="1" class="credits">
-            <p>Very slow...</p>
-            <p>Very slow...</p>
-            <p>Very slow...</p>
-            <p>Very slow...</p>
-            <p>Very slow...</p>
-            <p>Very slow...</p>
-            <p>Very slow...</p>
-            <p>Very slow...</p>
-            <p>Very slow...</p>
-            <p>Very slow...</p>
-            <p>Very slow...</p>
-            <p>Very slow...</p>
-            <p>Very slow...</p>
-            <p>Very slow...</p>
-            <p>Very slow...</p>
+        <marquee behavior="scroll" direction="up" scrollamount="2" class="credits">
+
+
+            <h1>Vielen Danke fürs Spielen</h1>
+            <hr size="3" width="50%" color="white">
+            <h2>Team</h2>
+            <p>Carolin Baum</p>
+            <p>Markus Fuhlbrügge</p>
+            <p>Paul Gebhardt</p>
+            <p>Darwin Hakkenbrock</p>
+            <p>Mathis Willimczik</p>
+            <hr size="3" width="50%" color="white">
+            <h2>Geschichte</h2>
+            <p>Markus Fuhlbrügge</p>
+            <p>Paul Gebhardt</p>
+            <p>Darwin Hakkenbrock</p>
+            <p>Mathis Willimczik</p>
+            <hr size="3" width="50%" color="white">
+            <h2>Programmierung</h2>
+            <p>Markus Fuhlbrügge</p>
+            <p>Paul Gebhardt</p>
+            <p>Mathis Willimczik</p>
+            <hr size="3" width="50%" color="white">
+            <h2>Artwork</h2>
+            <p>Carolin Baum</p>
+            <hr size="3" width="50%" color="white">
+            <h2>Sounddesign</h2>
+            <p>Mathis Willimczik</p>
+            <hr size="3" width="50%" color="white">
+            <br>
+            <a href="https://www.hs-harz.de"><img class="img-end" src="../img/hsharzlogo.png" alt="Logo HS-Harz"></a>
         </marquee>
 
     </main>
@@ -63,7 +76,7 @@
         </div>
     </footer>
     <!-- FOOTER END -->
-    <script src="js/javaScript_1.js"></script>
+    <script src="../js/javaScript_1.js"></script>
 </body>
 
 </html>

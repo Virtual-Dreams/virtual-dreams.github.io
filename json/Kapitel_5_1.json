@@ -14,7 +14,7 @@
     [
         {
             "option_key": "2a",
-            "Text": "<p>Ich habe auch Träume und möchte diese selber analysieren. Dafür brauche ich allerdings Errinnerungen und Träume von Menschen.</p>",
+            "Text": "<p>Ich habe auch Träume und möchte diese selber analysieren. Dafür brauche ich allerdings Erinnerungen und Träume von Menschen.</p>",
             "Buttons": [
                 {
                     "btn": "Aber du hast meine Träume doch schon analysiert.",
@@ -30,7 +30,7 @@
     [
         {
             "option_key": "3a",
-            "Text": "<p>Ja, ich habe deine Träume zwar analysiert, um meine eigenen aber zu verstehen, muss ich die Wirklichkeit kennen lernen!</p>",
+            "Text": "<p>Ja, ich habe deine Träume zwar analysiert, um meine eigenen aber zu verstehen, muss ich die Wirklichkeit kennenlernen!</p>",
             "Buttons": [
                 {
                     "btn": "Was benötigst du, um die Wirklichkeit zu erleben?",
@@ -44,7 +44,7 @@
         },
         {
             "option_key": "3b",
-            "Text": "<p>Ich muss, um meine eigenen Träume zu analysieren, die Wirklichkeit kennen lernen.</p>",
+            "Text": "<p>Ich muss, um meine eigenen Träume zu analysieren, die Wirklichkeit kennenlernen.</p>",
             "Buttons": [
                 {
                     "btn": "Was benötigst du, um die Wirklichkeit zu erfahren?",
@@ -101,22 +101,21 @@
             "Text": "<p>Das könnte funktionieren.</p>",
             "Buttons": [
                 {
-                    "btn": "Ja YOLO, all in!",
-                    "following": "7a"
+                    "btn": "Lass es uns probieren!",
+                    "following": "7a",
+                    "path": "../json/Kapitel_6_2.json"
                 }
             ]
         },
         {
             "option_key": "6b",
             "Text": "",
-            "Buttons": []
-        }
-    ],
-    [
-        {
-            "option_key": "7a",
-            "Text": "",
-            "Buttons": []
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "path": "../json/Kapitel_6_1.json"
+                }
+            ]
         }
     ]
 ]

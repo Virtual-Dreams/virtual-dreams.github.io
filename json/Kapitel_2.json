@@ -9,7 +9,7 @@
                     "following": "2a"
                 },
                 {
-                    "btn": "Ich habe es mir anders überlegt. - ESCAPE",
+                    "btn": "Ich habe es mir anders überlegt. - 'ESCAPE'",
                     "following": "2b"
                 }
             ]
@@ -39,7 +39,7 @@
     [
         {
             "option_key": "3a",
-            "Text": "<p>Ihr Schlaf ist hervorragend. Allerdings wurden bei den Träumen einige komplikationen festgestellt.</p> <p>Sie träumen sehr viel, was gut ist.</p> <p>Währen Sie träumen wurde allerdings eine Störung in Ihrem Gehirn gefunden.</p> <p>Ihre Träume sind dadurch sehr realitätsgetreu und Sie verlieren sich sehr einfach in diesen.</p>",
+            "Text": "<p>Ihr Schlaf ist hervorragend. Allerdings wurden bei den Träumen einige komplikationen festgestellt.</p> <p>Sie träumen sehr viel, was gut ist.</p> <p>Während Sie träumen wurde allerdings eine Störung in Ihrem Gehirn gefunden.</p> <p>Ihre Träume sind dadurch sehr realitätsgetreu und Sie verlieren sich sehr einfach in diesen.</p>",
             "Buttons": [
                 {
                     "btn": "Was ist denn genau das Problem?",
@@ -73,10 +73,10 @@
     [
         {
             "option_key": "4a",
-            "Text": "<p>Durch die Analyse Ihrer Träume, wurde sichtbar, dass Sie in Ihren Träumen klar bei Verstand sind.</p> <p>Es fühlt sich für Sie wie die Realität an. Sie können dadurch nicht mehr zwischen Traum und Wirklichkeit unterscheiden.</p>",
+            "Text": "<p>Durch die Analyse Ihrer Träume wurde sichtbar, dass Sie in Ihren Träumen klar bei Verstand sind.</p> <p>Es fühlt sich für Sie wie die Realität an. Sie können dadurch nicht mehr zwischen Traum und Wirklichkeit unterscheiden.</p>",
             "Buttons": [
                 {
-                    "btn": "Was mach ich jetzt dagegen?",
+                    "btn": "Und was mache ich jetzt dagegen?",
                     "following": "5a"
                 }
             ]
@@ -86,7 +86,7 @@
             "Text": "<p>Sie haben ein Problem beim Träumen, Sie können nicht mehr zwischen Traum und Wirklichkeit unterscheiden, da sich alles für Sie real anfühlt!</p>",
             "Buttons": [
                 {
-                    "btn": "Was mach ich jetzt dagegen?",
+                    "btn": "Und was mache ich jetzt dagegen?",
                     "following": "5a"
                 }
             ]
@@ -96,7 +96,7 @@
             "Text": "<p>Doch, die Gehirnströme von Ihnen wurden gemessen.</p> <p>Es wurde dabei herausgefunden, dass Sie einen Traum nicht von der Wirklichkeit unterscheiden können, da sich alles für Sie real anfühlt.</p>",
             "Buttons": [
                 {
-                    "btn": "Was mach ich jetzt dagegen?",
+                    "btn": "Und was mache ich jetzt dagegen?",
                     "following": "5a"
                 }
             ]
@@ -105,7 +105,7 @@
     [
         {
             "option_key": "5a",
-            "Text": "<p>Ich werde Ihnen ein paar Fragen stellen und gezielt einige Bereiche Ihres Bewusstseiens analysieren bzw. verändern.</p>",
+            "Text": "<p>Ich werde Ihnen ein paar Fragen stellen und gezielt einige Bereiche Ihres Bewusstseins analysieren bzw. verändern.</p>",
             "Buttons": [
                 {
                     "btn": "Ist das gefährlich?",
@@ -117,8 +117,7 @@
                 },
                 {
                     "btn": "Ja YOLO, all in!",
-                    "following": "6c",
-                    "path": "../json/Kapitel_3.json"
+                    "following": "6c"
                 }
             ]
         }
@@ -145,6 +144,17 @@
                 {
                     "btn": "Das beruhigt mich überhaupt nicht!",
                     "following": "7a"
+                }
+            ]
+        },
+        {
+            "option_key": "6c",
+            "Text": "",
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "path": "../json/Kapitel_3.json",
+                    "BG": "url('../img/kapitel_3_bg.jpg')"
                 }
             ]
         }

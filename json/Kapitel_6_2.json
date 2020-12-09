@@ -1,0 +1,45 @@
+[
+    [
+        {
+            "option_key": "1a",
+            "Text": "<p>Vorgang wird gestartet...</p>",
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "following": "2a"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "2a",
+            "Text": "Datentransfer von K.I. auf Probanden wird durchgeführt...",
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "following": "3a"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "3a",
+            "Text": "Datentransfer erfolgreich abgeschlossen. Sie sind nur mit der K.I. verknüpft.",
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "following": "4a"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "option_key": "4a",
+            "Text": "",
+            "Buttons": []
+        }
+    ]
+]

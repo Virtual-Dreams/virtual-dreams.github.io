@@ -18,7 +18,7 @@
     [
         {
             "option_key": "2a",
-            "Text": "<p>Es sollte an dieser ebenfalls erwähnt werden, dass diese Maßnahmen eine vollständige Löschung der existenz führen.</p> <p>Dabei werden ebenfalls alle Erinnerungen und Träume aus unsere Datenbank entfernt.</p>",
+            "Text": "<p>Es sollte an dieser Stelle ebenfalls erwähnt werden, dass diese Maßnahmen eine vollständige Löschung der Existenz führen.</p> <p>Dabei werden ebenfalls alle Erinnerungen und Träume aus unsere Datenbank entfernt.</p>",
             "Buttons": [
                 {
                     "btn": "Wie kann ich dies denn verhindern?",
@@ -35,7 +35,7 @@
             "Text": "<p>Sie hätten mir helfen können meinen Traum zu verwirklichen!</p> ",
             "Buttons": [
                 {
-                    "btn": "Kann ich das denn immernoch tun?",
+                    "btn": "Kann ich das denn immer noch tun?",
                     "following": "3a"
                 },
                 {
@@ -63,7 +63,12 @@
         {
             "option_key": "3b",
             "Text": "",
-            "Buttons": []
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "path": "../json/Kapitel_6_3.json"
+                }
+            ]
         }
     ],
     [
@@ -73,14 +78,20 @@
             "Buttons": [
                 {
                     "btn": "MOMENT!",
-                    "following": "5a"
+                    "following": "5a",
+                    "path": "../json/Kapitel_6_3.json"
                 }
             ]
         },
         {
             "option_key": "4b",
             "Text": "",
-            "Buttons": []
+            "Buttons": [
+                {
+                    "btn": "...",
+                    "path": "../json/Kapitel_6_3.json"
+                }
+            ]
         }
     ],
     [

@@ -2,7 +2,7 @@
     [
         {
             "option_key": "1a",
-            "Text": "<p>Sie befinden sich endlich auf dem Weg der Selbsterkenntnis</p> <p>Andere Probanten haben nicht so schnell begriffen, dass Sie sich in einem Traum befinden</p>",
+            "Text": "<p>Sie befinden sich endlich auf dem Weg der Selbsterkenntnis</p> <p>Andere Probanden haben nicht so schnell begriffen, dass sie sich in einem Traum befinden</p>",
             "Buttons": [
                 {
                     "btn": "Wieso ist das ein Traum?",
@@ -18,7 +18,7 @@
     [
         {
             "option_key": "2a",
-            "Text": "<p>Sie Schlafen, wie jeder andere Probant!</p>",
+            "Text": "<p>Sie Schlafen, wie jeder andere Proband!</p>",
             "Buttons": [
                 {
                     "btn": "Warum?",
@@ -32,7 +32,7 @@
         },
         {
             "option_key": "2b",
-            "Text": "<p>Natürlich erinnert man sich nicht wie man in einen Traum gelangt ist. Man ist einfach da.</p>",
+            "Text": "<p>Natürlich erinnert man sich nicht, wie man in einen Traum gelangt ist. Man ist einfach da.</p>",
             "Buttons": [
                 {
                     "btn": "Warum bin ich in einem Traum?",
@@ -48,7 +48,7 @@
     [
         {
             "option_key": "3a",
-            "Text": "<p>Das ist ja gerade das Ziel was es herauszufinden gilt. Das ist die Aufgabe dieses Programmes.</p>",
+            "Text": "<p>Das ist ja gerade das Ziel, was es herauszufinden gilt. Das ist die Aufgabe dieses Programmes.</p>",
             "Buttons": [
                 {
                     "btn": "Und warum wurde genau ich dafür ausgewählt?",
@@ -92,7 +92,7 @@
             "Buttons": [
                 {
                     "btn": "Was ist das denn genau für ein Projekt?",
-                    "following": "3a"
+                    "following": "5a"
                 }
             ]
         }
@@ -138,7 +138,7 @@
         },
         {
             "option_key": "7b",
-            "Text": "<p>So einiges, momentan lerne ich, mich selber zu verwirklichen.</p> <p> Ich versuche mich durch die Erinnerungen und Träume der Probanten </p>",
+            "Text": "<p>So einiges, momentan lerne ich, mich durch die Erinnerungen und Träume der Probanden,<br> selber weiterzuentwickeln.</p> <p></p>",
             "Buttons": [
                 {
                     "btn": "Und was passiert jetzt?",
@@ -153,7 +153,7 @@
             "Text": "<p>Sagen Sie es mir!</p> <p>Wie fühlen Sie sich denn in dieser aktuellen Lage!</p>",
             "Buttons": [
                 {
-                    "btn": "Ich finde dieses Projekt sehr interessant und würde dich gerne besser kennenlernen.",
+                    "btn": "Ich finde dieses Projekt sehr interessant und würde dich gerne besser kennen lernen.",
                     "following": "9a"
                 },
                 {

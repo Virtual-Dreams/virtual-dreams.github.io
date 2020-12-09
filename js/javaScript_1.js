@@ -66,7 +66,6 @@ function writeNext(option) {
         else if (option === 1) textBox.innerHTML += "<p class=\"right\">" + btn2.innerHTML + "</p>";
         else if (option === 2) textBox.innerHTML += "<p class=\"right\">" + btn3.innerHTML + "</p>";
 
-        sleep(500);
         //Printen des Textes der AI in textBox
         textBox.innerHTML += inhalt[counter][option].Text;
 
