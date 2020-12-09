@@ -60,11 +60,13 @@ function writeNext(option) {
         btn2.style.display = (buttonArray >= 2) ? "block" : "none";
         btn3.style.display = (buttonArray >= 3) ? "block" : "none";
 
+        
         //Printen der Buttontexte in textBox
         if (option === 0) textBox.innerHTML += "<p class=\"right\">" + btn1.innerHTML + "</p>";
         else if (option === 1) textBox.innerHTML += "<p class=\"right\">" + btn2.innerHTML + "</p>";
         else if (option === 2) textBox.innerHTML += "<p class=\"right\">" + btn3.innerHTML + "</p>";
 
+        sleep(500);
         //Printen des Textes der AI in textBox
         textBox.innerHTML += inhalt[counter][option].Text;
 
@@ -90,6 +92,14 @@ function writeNext(option) {
             counter++;
         }
     }
+}
+
+function sleep(milliseconds) {
+    const date = Date.now();
+    let currentDate = null;
+    do {
+        currentDate = Date.now();
+    } while (currentDate - date < milliseconds);
 }
 
 //blinking cursor
@@ -120,23 +130,3 @@ function gotoBottom(id) {
     element.scrollTop = element.scrollHeight - element.clientHeight;
 }
 //myaudio.paused
-
-var i = 0;
-function move() {
-    if (i == 0) {
-        i = 1;
-        var elem = document.getElementById("myBar");
-        var width = 10;
-        var id = setInterval(frame, 10);
-        function frame() {
-            if (width >= 100) {
-                clearInterval(id);
-                i = 0;
-            } else {
-                width++;
-                elem.style.width = width + "%";
-                elem.innerHTML = width + "%";
-            }
-        }
-    }
-}
