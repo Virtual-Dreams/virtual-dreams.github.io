@@ -45,6 +45,7 @@ img.scale:hover {
 
 .arrowBack {
     width: 5%;
+    min-width: 4rem;
     height: auto;
     position: fixed;
     bottom: 5%;
